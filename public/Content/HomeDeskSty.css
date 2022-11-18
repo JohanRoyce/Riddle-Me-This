@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+/* The body tag style applies to all elements on the page */
+body {
+    background: repeating-radial-gradient(red, red 20px, white 20px, white 40px); 
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+
+    
+}
+
+#wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(255, 204, 0, 0.943) ;
+    opacity: .95;
+    }
+
+
+    
+        
+    #homearticle { 
+        background-color: #CAE3CA; 
+        width: 800px; 
+        margin-left: 70px;
+        margin-top: 40px; 
+        padding: 10px; 
+        text-align: center;
+        } 
+
+    #homeaside{
+        display: flex;
+        justify-content: space-around;
+        background-color: #49994A; 
+        width: 800px; 
+        margin-top: 30px; 
+        margin-left: 70px;
+        padding: 10px; 
+    }
+
+    .homesidebox {
+        background-color: #E685C8; 
+        width: 200px;
+        height:120px; 
+        margin: 10px; 
+        padding: 10px; 
+        text-align: center;
+    }
+    
+    .clear{
+        clear: both;
+        }
